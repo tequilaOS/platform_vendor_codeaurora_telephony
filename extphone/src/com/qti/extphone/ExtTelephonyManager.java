@@ -230,8 +230,6 @@ public class ExtTelephonyManager {
         }
         if (isServiceConnected() && mServiceCbs.isEmpty()) {
             mContext.unbindService(mConnection);
-            log("Set ServiceConnected to false");
-            mServiceConnected.set(false);
         }
     }
 

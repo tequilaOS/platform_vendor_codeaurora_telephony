@@ -106,9 +106,5 @@ public class QtiImsExtListenerBaseImpl extends IQtiImsExtListener.Stub {
     @Override
     public void onScbmExited(boolean status) {
     }
-
-    @Override
-    public void notifyDataChannelCapability(int phoneId, boolean dcCapability) {
-    }
 }
 
